@@ -34,14 +34,25 @@ function renderProducts(products) {
     }
 
     products.forEach(product => {
-        const card = document.createElement('div');
+        // If the product has a link (our easter egg), make the whole card clickable!
+        const card = document.createElement(product.link ? 'a' : 'div');
         card.classList.add('product-card');
         
+        if (product.link) {
+            card.href = product.link;
+            card.style.textDecoration = 'none'; 
+            card.style.color = 'inherit';
+        }
+        
+        // Special label formatting for the developer card
+        const categoryLabel = product.category === 'developer' ? '⭐⭐⭐⭐⭐ Top Rated Intern' : product.category;
+        const priceLabel = product.price === 0 ? '<span style="color: var(--primary-color); font-weight: 900; font-size: 22px;">FREE</span>' : '$' + product.price.toFixed(2);
+        
         card.innerHTML = `
-            <img src="${product.image}" alt="${product.title}" class="product-image">
+            <img src="${product.image}" alt="${product.title}" class="product-image" style="${product.category === 'developer' ? 'object-fit: cover; border-radius: 4px;' : ''}">
             <h2 class="product-title">${product.title}</h2>
-            <div class="product-category">${product.category}</div>
-            <div class="product-price">$${product.price.toFixed(2)}</div>
+            <div class="product-category">${categoryLabel}</div>
+            <div class="product-price">${priceLabel}</div>
         `;
         
         productGrid.appendChild(card);
