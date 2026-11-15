@@ -1,66 +1,381 @@
 [
-    {
-        "id": 1,
-        "title": "Canada 2026 Authentic Home Jersey",
-        "category": "jerseys",
-        "price": 129.99,
-        "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-        "id": 2,
-        "title": "Official FIFA World Cup 2026 Match Ball",
-        "category": "equipment",
-        "price": 159.99,
-        "image": "https://images.unsplash.com/photo-1614632537190-23e4146777db?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-        "id": 3,
-        "title": "Toronto Host City Commemorative Scarf",
-        "category": "accessories",
-        "price": 34.99,
-        "image": "https://images.unsplash.com/photo-1606041011872-596590462066?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-        "id": 4,
-        "title": "USA 2026 Away Kit",
-        "category": "jerseys",
-        "price": 119.99,
-        "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-        "id": 5,
-        "title": "Professional Firm Ground Cleats",
-        "category": "equipment",
-        "price": 220.00,
-        "image": "https://images.unsplash.com/photo-1511886929837-354d827aae26?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-        "id": 6,
-        "title": "Mexico 2026 Home Jersey",
-        "category": "jerseys",
-        "price": 119.99,
-        "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-        "id": 7,
-        "title": "World Cup 2026 Snapback Hat",
-        "category": "accessories",
-        "price": 29.99,
-        "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-        "id": 8,
-        "title": "Goalkeeper Training Gloves",
-        "category": "equipment",
-        "price": 65.00,
-        "image": "https://images.unsplash.com/photo-1551280857-2b9ebf241519?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-        "id": 9,
-        "title": "Hire the Developer (Summer 2027)",
-        "category": "developer",
-        "price": 0.00,
-        "image": "CEO.jpeg",
-        "link": "about.html"
-    }
+  {
+    "id": 1,
+    "title": "Canada 2026 Authentic Home Jersey",
+    "category": "jerseys",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Official FIFA World Cup 2026 Match Ball",
+    "category": "equipment",
+    "price": 159.99,
+    "image": "https://images.unsplash.com/photo-1614632537190-23e4146777db?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Toronto Host City Commemorative Scarf",
+    "category": "accessories",
+    "price": 34.99,
+    "image": "https://images.unsplash.com/photo-1606041011872-596590462066?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 4,
+    "title": "USA 2026 Away Kit",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Professional Firm Ground Cleats",
+    "category": "equipment",
+    "price": 220,
+    "image": "https://images.unsplash.com/photo-1511886929837-354d827aae26?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 6,
+    "title": "Mexico 2026 Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 7,
+    "title": "World Cup 2026 Snapback Hat",
+    "category": "accessories",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 8,
+    "title": "Goalkeeper Training Gloves",
+    "category": "equipment",
+    "price": 65,
+    "image": "https://images.unsplash.com/photo-1551280857-2b9ebf241519?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 10,
+    "title": "Argentina 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 11,
+    "title": "Brazil 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 12,
+    "title": "France 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 13,
+    "title": "England 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 14,
+    "title": "Spain 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1600181516264-3ea807fb4432?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 15,
+    "title": "Germany 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 16,
+    "title": "Portugal 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 17,
+    "title": "Italy 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 18,
+    "title": "Netherlands 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 19,
+    "title": "Belgium 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1600181516264-3ea807fb4432?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 20,
+    "title": "Croatia 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 21,
+    "title": "Uruguay 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 22,
+    "title": "Colombia 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 23,
+    "title": "Japan 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 24,
+    "title": "Senegal 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1600181516264-3ea807fb4432?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 25,
+    "title": "Morocco 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 26,
+    "title": "South Korea 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 27,
+    "title": "Australia 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 28,
+    "title": "Switzerland 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 29,
+    "title": "Denmark 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1600181516264-3ea807fb4432?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 30,
+    "title": "Ecuador 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 31,
+    "title": "Chile 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 32,
+    "title": "Costa Rica 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 33,
+    "title": "Panama 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 34,
+    "title": "Jamaica 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1600181516264-3ea807fb4432?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 35,
+    "title": "Nigeria 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 36,
+    "title": "Egypt 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 37,
+    "title": "Cameroon 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 38,
+    "title": "Algeria 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 39,
+    "title": "Ivory Coast 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1600181516264-3ea807fb4432?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 40,
+    "title": "Ghana 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 41,
+    "title": "Mali 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 42,
+    "title": "Iran 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 43,
+    "title": "Saudi Arabia 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 44,
+    "title": "Qatar 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1600181516264-3ea807fb4432?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 45,
+    "title": "UAE 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 46,
+    "title": "Uzbekistan 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 47,
+    "title": "New Zealand 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 48,
+    "title": "Sweden 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 49,
+    "title": "Poland 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1600181516264-3ea807fb4432?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 50,
+    "title": "Serbia 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 51,
+    "title": "Austria 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 52,
+    "title": "Ukraine 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1554526233-a3d58252277d?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 53,
+    "title": "Wales 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 54,
+    "title": "Peru 2026 Official Home Jersey",
+    "category": "jerseys",
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1600181516264-3ea807fb4432?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 55,
+    "title": "Hire the Developer (Summer 2027)",
+    "category": "developer",
+    "price": 0,
+    "image": "CEO.jpeg",
+    "link": "about.html"
+  }
 ]
