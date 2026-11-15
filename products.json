@@ -54,5 +54,13 @@
         "category": "equipment",
         "price": 65.00,
         "image": "https://images.unsplash.com/photo-1551280857-2b9ebf241519?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+        "id": 9,
+        "title": "Hire the Developer (Summer 2027)",
+        "category": "developer",
+        "price": 0.00,
+        "image": "CEO.jpg",
+        "link": "about.html"
     }
 ]
