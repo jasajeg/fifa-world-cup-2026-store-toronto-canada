@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Developer - Jasakan</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-container { max-width: 800px; margin: 40px auto; padding: 30px; background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .ceo-header { display: flex; gap: 25px; align-items: center; margin-bottom: 30px; flex-wrap: wrap; }
+        .ceo-image { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid var(--primary-color); }
+        .ceo-info h1 { margin-bottom: 5px; font-size: 28px; }
+        .ceo-info p { color: var(--text-light); font-size: 16px; }
+        .doc-box { background: #f9fafb; border-left: 4px solid var(--primary-color); padding: 25px; margin: 25px 0; border-radius: 0 8px 8px 0; }
+        .doc-box h3 { margin-bottom: 15px; color: var(--primary-color); }
+        .signature { font-weight: bold; margin-top: 20px; color: var(--text-dark); }
+        .back-link { display: inline-block; margin-bottom: 20px; color: var(--primary-color); text-decoration: none; font-weight: bold; }
+        .back-link:hover { text-decoration: underline; }
+        .embed-container { margin-top: 25px; display: flex; gap: 15px; flex-wrap: wrap; }
+        .btn { padding: 12px 24px; background: var(--primary-color); color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: opacity 0.2s; }
+        .btn:hover { opacity: 0.9; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>World Cup 2026 Store</h1>
+        </div>
+    </header>
+    <main>
+        <div class="about-container">
+            <a href="index.html" class="back-link">← Back to Storefront</a>
+            
+            <div class="ceo-header">
+                <img src="CEO.jpg" alt="Jasakan Jegatheesvaran" class="ceo-image">
+                <div class="ceo-info">
+                    <h1>Jasakan Jegatheesvaran</h1>
+                    <p>Computer Engineering Student | Aspiring Software Engineer</p>
+                </div>
+            </div>
+            
+            <h2>The Story Behind the Store</h2>
+            <p style="margin: 15px 0; line-height: 1.6; color: var(--text-dark);">
+                Welcome to my project! I'm a Computer Engineering student (Class of 2028) at TMU with a passion for software development and autonomous systems. I built this storefront to combine my technical front-end skills with my real-world experience. Currently, I work in the back kitchen at McDonald's to pay my way through school, but during the summer of 2026, I had the honor of volunteering for the FIFA World Cup right here in Toronto.
+            </p>
+            
+            <div class="doc-box">
+                <h3>Official FIFA Letter of Recommendation</h3>
+                <p style="font-style: italic; line-height: 1.7; color: var(--text-dark);">
+                    "We hereby certify that Jasakan Jegatheesvaran participated in the FIFA World Cup 2026™ Volunteer program.<br><br>
+                    <strong>Functional Area:</strong> Ceremonies<br>
+                    <strong>Role Assignment:</strong> Pre Match Ceremony Cast Volunteer<br>
+                    <strong>Venue:</strong> Toronto Stadium<br>
+                    <strong>Total Hours:</strong> 40<br><br>
+                    The tournament took place between June 11 - July 19, 2026 across 16 Host Cities, in Canada, Mexico and the United States."
+                </p>
+                <p class="signature">- Gianni Infantino (FIFA President) & Mattias Grafström (Secretary General)</p>
+                
+                <div class="embed-container">
+                    <a href="FIFA Letter of Recommendation .pdf" target="_blank" class="btn">📄 View Letter of Recommendation</a>
+                    <a href="FIFA World Cup 2026 Volunteer Certificate .pdf" target="_blank" class="btn">🏆 View Official Certificate</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
